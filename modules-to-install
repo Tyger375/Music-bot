@@ -1,0 +1,6 @@
+ffmpeg/avconv
+npm i ffmpeg-static
+video da youtube
+npm install ytdl-core@latest
+cerca su youtube
+npm install yt-search
