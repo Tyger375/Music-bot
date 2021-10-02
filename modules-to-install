@@ -1,10 +1,6 @@
-ffmpeg-static
+npm i discord.js@12.5.3
 npm i ffmpeg-static
-video da youtube
-npm install ytdl-core@latest
-cerca su youtube
-npm install yt-search
-opus
+npm i ytdl-core@latest
+npm i yt-search
 npm i node-opus
-opusscript
 npm i opusscript
