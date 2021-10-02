@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const Bot = new Discord.Client();
 const yts = require('yt-search');
 const ytdl = require('ytdl-core');
-Bot.login("ODkwOTc5OTIxMjU2Njc3NDU4.YU3rtg.2XdFrededbBTmuvbE0firEsWvec");
+Bot.login("token");
 
 var prefisso = "$";
 var CanzoneInRiproduzione;
