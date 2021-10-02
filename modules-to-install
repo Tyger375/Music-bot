@@ -5,4 +5,4 @@ npm install ytdl-core@latest
 cerca su youtube
 npm install yt-search
 opus
-npm i node-opus
+npm i @discordjs/opus
