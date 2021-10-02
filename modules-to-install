@@ -1,4 +1,4 @@
-ffmpeg/avconv
+ffmpeg-static
 npm i ffmpeg-static
 video da youtube
 npm install ytdl-core@latest
