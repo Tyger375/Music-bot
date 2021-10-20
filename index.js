@@ -20,7 +20,7 @@ client.on("message", async (message) => {
         .addField("Questo bot per la musica è stato creato da `tyger 375#4141` e `ale_006#9999`.", "[Aggiungimi al tuo server!](https://discord.com)")
         message.channel.send(embed);
     }
-    if(message.content == "<@766336575793135697>" || message.content == "<@!766336575793135697>") {
+    if(message.content == "<@" + client.user.id + ">" || message.content == "<@!" + client.user.id + ">") {
         let embed = new Discord.MessageEmbed()
         .setAuthor(message.author.tag, message.author.displayAvatarURL())
         .setColor("BLUE")
@@ -37,6 +37,6 @@ client.on("message", async (message) => {
     music.Check(message)
 }
 catch (err) {
-    client.channels.cache.get("893900563446636584").send(":red_circle: **Errore:**\n" + message.guild.name + " - " + message.guild.id + " - " + message.guild.owner.user.tag + "\n```js\n" + err + "```")
+    client.channels.cache.get("id canale errori").send(":red_circle: **Errore:**\n" + message.guild.name + " - " + message.guild.id + " - " + message.guild.owner.user.tag + "\n```js\n" + err + "```")
 }
 })
